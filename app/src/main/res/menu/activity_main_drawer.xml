@@ -4,19 +4,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_search_location"
-            android:icon="@drawable/icon_menu_location"
+            android:icon="@drawable/ic_menu_location"
             android:title="@string/title_add_location"/>
         <item
             android:id="@+id/nav_option"
-            android:icon="@drawable/icon_menu_setting"
+            android:icon="@drawable/ic_menu_setting"
             android:title="@string/title_settting_detail"/>
         <item
             android:id="@+id/nav_information"
-            android:icon="@drawable/icon_menu_information"
+            android:icon="@drawable/ic_menu_information"
             android:title="@string/title_infor_app"/>
         <item
             android:id="@+id/nav_exit"
-            android:icon="@drawable/icon_menu_exit"
+            android:icon="@drawable/ic_menu_exit"
             android:title="@string/title_exit_app"/>
     </group>
 

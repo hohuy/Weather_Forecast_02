@@ -9,4 +9,15 @@
     <string name="title_settting_detail">Tùy chọn</string>
     <string name="title_infor_app">Thông tin ứng dụng</string>
     <string name="title_exit_app">Thoát</string>
+    <string name="label_temperature">Teperature</string>
+    <string name="label_wind_speed">Wind speed</string>
+    <string name="label_celsius_unit">°C</string>
+    <string name="label_fahrenheit_unit">°F</string>
+    <string name="label_kilometres_per_hour">km/h</string>
+    <string name="label_metres_per_second">m/s</string>
+    <string name="label_miles_per_hour">mph</string>
+    <string name="action_search">Search</string>
+    <string name="location_current">Địa điểm hiện tại:</string>
+    <string name="temperature">Nhiêt độ</string>
+    <string name="wind">Gió</string>
 </resources>
