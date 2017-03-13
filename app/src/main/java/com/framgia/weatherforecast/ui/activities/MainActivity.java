@@ -1,5 +1,5 @@
 package com.framgia.weatherforecast.ui.activities;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -12,21 +12,18 @@ import android.view.MenuItem;
 import com.framgia.weatherforecast.R;
 
 import static com.framgia.weatherforecast.R.id.toolbar;
-
 public class MainActivity extends AppCompatActivity
     implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout mDrawerLayout;
     private Toolbar mToolbar;
     private NavigationView mNavigationView;
     private ActionBarDrawerToggle mActionBarDrawerToggle;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setSupportActionBar(mToolbar);
         initView();
-
     }
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -34,10 +31,10 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         switch (id) {
             case R.id.nav_search_location:
-                //todo intent activity add location
+                startActivity(new Intent(this,AddLocationActivity.class));
                 break;
             case R.id.nav_option:
-                //todo intent activity option
+                startActivity(new Intent(this,SettingsActivity.class));
                 break;
             case R.id.nav_information:
                 //todo inten activity informatiom app
@@ -48,7 +45,6 @@ public class MainActivity extends AppCompatActivity
             default:
                 break;
         }
-
         mDrawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
@@ -61,6 +57,5 @@ public class MainActivity extends AppCompatActivity
             R.string.navigation_drawer_close);
         mActionBarDrawerToggle.syncState();
         mNavigationView.setNavigationItemSelectedListener(this);
-
     }
 }

@@ -25,7 +25,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/icon_menu_location"
+        app:srcCompat="@drawable/ic_menu_location"
         android:layout_marginEnd="@dimen/dp_12"
         android:id="@+id/image_weather"
         android:layout_alignParentTop="true"
