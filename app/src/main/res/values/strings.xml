@@ -20,4 +20,8 @@
     <string name="location_current">Địa điểm hiện tại:</string>
     <string name="temperature">Nhiêt độ</string>
     <string name="wind">Gió</string>
+    <string name="title_dialog">GPS is settings</string>
+    <string name="mesage_dialog">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="cancel_dialog">Cancel</string>
+
 </resources>
